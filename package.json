@@ -1,7 +1,7 @@
 {
   "name": "hardet",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,10 +14,21 @@
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "chai": "^4.3.6",
     "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.6.9",
+    "ethers": "^5.0.0",
     "hardhat": "^2.9.9"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sufyankhan12/Hardet-Learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sufyankhan12/Hardet-Learning/issues"
+  },
+  "homepage": "https://github.com/Sufyankhan12/Hardet-Learning#readme"
 }

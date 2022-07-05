@@ -1,13 +1,12 @@
-const hre = require("hardhat");
 
 async function main() {
-  const TransferOwner = await hre.ethers.getContractFactory("TransferOwner");
-  console.log ("Deploying transfer Project")
-  const transferOwner = await TransferOwner.deploy("Hello, TransferOwner");
+  const Num = await ethers.getContractFactory("Num");
+  console.log ("Deploying transfer Project .... ")
+  const num = await Num.deploy();
 
-  await transferOwner.deployed();
+  await num.deployed();
 
-  console.log("TransferOwner deployed to:", TransferOwner.address);
+  console.log("Num Contract deployed to:", num.address);
 }
 
 main()
