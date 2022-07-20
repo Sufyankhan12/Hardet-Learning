@@ -1,0 +1,2 @@
+hardhat basic cammand docs link you must read this for start learning hardhat and it is inafe to learn hardhat ..
+https://docs.openzeppelin.com/learn/developing-smart-contracts?pref=hardhat
